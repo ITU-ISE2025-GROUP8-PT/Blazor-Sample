@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35728.132 d17.12
+VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorTrial", "BlazorTrial\BlazorTrial.csproj", "{88CD9343-0A62-470A-872F-1FE706918C85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorTrial", "BlazorTrial\BlazorTrial.csproj", "{88CD9343-0A62-470A-872F-1FE706918C85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Annotations API", "Annotations API\Annotations API.csproj", "{510E19FF-B0C8-4182-AE97-C3D4B358F0C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{88CD9343-0A62-470A-872F-1FE706918C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88CD9343-0A62-470A-872F-1FE706918C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88CD9343-0A62-470A-872F-1FE706918C85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{510E19FF-B0C8-4182-AE97-C3D4B358F0C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{510E19FF-B0C8-4182-AE97-C3D4B358F0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{510E19FF-B0C8-4182-AE97-C3D4B358F0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{510E19FF-B0C8-4182-AE97-C3D4B358F0C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2698AAAF-4272-420F-B27C-1A4AED631675}
 	EndGlobalSection
 EndGlobal
