@@ -1,6 +1,6 @@
 on:
   pull_request:
-    branches: [main]
+    branches: [main, "tomat-suppe-patch-1]
   workflow_dispatch:
   
 jobs:
